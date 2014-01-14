@@ -8,7 +8,7 @@
    $(window).scroll(function() {
        var scrollVal = $(this).scrollTop();
         if ( scrollVal > 600) {
-            $('#subnav').css({'position':'fixed','top' :'-1px','display':'block'});
+            $('#subnav').css({'position':'fixed','top' :'0px','display':'block'});
         } else {
             $('#subnav').css({'position':'static','top':'auto','display':'none'});
         }
